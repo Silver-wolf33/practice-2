@@ -427,6 +427,9 @@ hr {
     font-size: 30px;
     margin-bottom: 18px;
   }
+  .button-section p {
+    padding-bottom: 20px;
+}
   /* footer */
   .footer-info {
     max-width: 100%;
