@@ -353,9 +353,12 @@ hr {
 }
 
 /* responsiveness */
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 430px) {
   /* extra-info */
-  #extra-info,#solution,#enroll,footer {
+  #extra-info,
+  #solution,
+  #enroll,
+  footer {
     max-width: 100%;
   }
   .info-heading {
@@ -367,7 +370,7 @@ hr {
     font-size: 40px;
   }
   .card-container {
-    max-width: 100%;
+    max-width: 80%;
     flex-direction: column;
     justify-content: center;
     gap: 24px;
@@ -378,150 +381,158 @@ hr {
     border-radius: 10px;
     padding: 50px 24px;
     box-shadow: 0 0 8px #00000025;
-}
-/* solution section */
-.solution-container {
+  }
+  /* solution section */
+  .solution-container {
     max-width: 100%;
     margin: 20px;
     flex-direction: column;
     gap: 40px;
     margin-bottom: 400px;
-}
-.solution-container img {
+  }
+  .solution-container img {
     max-width: 100%;
-}
-.info-container {
+  }
+  .info-container {
     max-width: 100%;
     margin: 40px 0;
-}
-.heading-container{
-  text-align: center;
-}
-.heading-container h3 {
+  }
+  .heading-container {
+    text-align: center;
+  }
+  .heading-container h3 {
     font-size: 40px;
-}
-.checkbox-container {
+  }
+  .heading-container p {
+    font-size: 12px;
+  }
+  .checkbox-container {
     max-width: 100%;
-}
-.chk-img {
+  }
+  .chk-img {
     width: 20px;
-}
-/* enroll section */
-.enroll-container {
+  }
+  /* enroll section */
+  .enroll-container {
     max-width: 100%;
     margin: 10px;
     border-radius: 8px;
-}
-.enroll-heading {
+  }
+  .enroll-heading {
     max-width: 100%;
     padding: 40px;
     text-align: center;
-}
-.enroll-heading h3 {
+  }
+  .enroll-heading h3 {
     font-size: 30px;
     margin-bottom: 18px;
-}
-/* footer */
-.footer-info {
+  }
+  /* footer */
+  .footer-info {
     max-width: 100%;
     padding: 50px 70px;
     flex-direction: column;
     justify-content: center;
     gap: 40px;
-}
-.fot-logo img{
-  width: 100%;
-}
-.socials {
+  }
+  .fot-logo img {
+    width: 70%;
+    margin-left: 30px;
+  }
+  .socials {
     max-width: 100%;
     text-align: center;
-}
-.social-img {
+  }
+  .social-img {
     display: flex;
     justify-content: center;
     width: 100%;
     gap: 16px;
-}
-.social-img img{
-  width: 25px;
-  height: 25px;
-}
-/* navbar */
-nav {
+  }
+  .social-img img {
+    width: 25px;
+    height: 25px;
+  }
+  /* navbar */
+  nav {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 10px 20px;
-}
-nav ul {
+  }
+  nav ul {
     gap: 25px;
+    justify-content: center;
     margin-top: 24px;
     margin-bottom: 14px;
-}
-nav ul li {
+  }
+  nav ul li {
     text-align: center;
-}
-.logo img{
-  width: 60%;
-  margin-left: 40px;
-}
-.btn {
-    width:100%;
+  }
+  .logo img {
+    width: 60%;
+    margin-left: 40px;
+  }
+  .btn {
+    width: 60%;
     align-items: center;
     justify-content: center;
     box-shadow: 0 10px 20px #00000026;
     margin: 20px auto;
-}
-#hero {
-  min-height: 100vh; 
-  background-image: url(../assets/hero-bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.hero-container {
+  }
+  #hero {
+    background-image: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-container {
     max-width: 100%;
     margin-top: 50px;
-}
-.heading-section {
-  width: 100%;
+  }
+  .heading-section {
+    width: 100%;
     padding-top: 16px;
     text-align: center;
-}
-#heading-container {
+  }
+  #heading-container {
     width: 100%;
-}
-.heading-section h2 {
+  }
+  .heading-section h2 {
     font-size: 40px;
-
-}
-.heading-section p {
+  }
+  .heading-section p {
     max-width: 100%;
     font-size: 15px;
     font-weight: 400;
     line-height: 23px;
     padding: 0 10px;
     margin-bottom: 10px;
-}
-.button {
+  }
+  .button {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     gap: 0px;
-}
-#btn2 {
+  }
+  #btn1 {
+    width: 80%;
+  }
+  #btn2 {
+    width: 80%;
     padding: 10px 16px;
     display: flex;
     justify-content: center;
+    margin-left: 30px;
     gap: 10px;
     margin-top: 0;
-    margin-bottom: 20px
-}
-.early {
-    margin-bottom:10px ;
-}
+    margin-bottom: 10px;
+  }
+  .early {
+    margin-bottom: 10px;
+  }
 }
